@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appTheme">
+
+    <TextView
+        android:id="@+id/txtRegisterYourself"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Yourself"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/llProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegisterYourself"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etRegisterFullName"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:hint="Full Name"
+        android:drawableLeft="@drawable/ic_person"
+        android:textColorHint="#000000"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etRegisterMobileNo"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_mobile_no"
+        android:hint="Mobile Number (10 digits)"
+        android:textColorHint="#000000"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/etRegisterEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_message"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:hint="Email address"
+        android:textColorHint="#000000"
+        android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/etRegisterAddress"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_address"
+            android:textColorHint="#000000"
+            android:hint="Address"
+            android:inputType="textPostalAddress"/>
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        android:textAlignment="textStart"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:hint="Password(min 7 characters)"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/btnRegisterLogin"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFavourite"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/register_log_in"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

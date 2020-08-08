@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="dashboard">Home</string>
+    <string name="favourites">Favourite Restaurants</string>
+    <string name="profile">My Profile</string>
+    <string name="aboutApp">FAQs</string>
+    <string name="orderHistory">Order History</string>
+    <string name="sort">sort</string>
+    <string name="Foodies">Foodies</string>
+    <string name="preferences_file_name">login_details</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="faq1">Q1. Who is Foodies?</string>
+    <string name="faqAns1"><![CDATA[-> Foodies Delivery Partners are independent contractors, who are required to pick up food or grocery items ordered by customers from restaurants / outlets and deliver to customers. Delivery Partners use their own vehicles (Bike/Cycle) to deliver orders to Foodies customers.]]></string>
+    <string name="faq2">Q2.Do you charge for delivery?</string>
+    <string name="faqAns2"><![CDATA[-> Delivery fees varies from city to city and is applicable on your delivery location distance from our pick-up station. Standard charges apply]]></string>
+    <string name="faq3">Q3.Can I place an order on call?</string>
+    <string name="faqAns3"><![CDATA[->Yes, we accept orders on call. You can call us on +91-XXXXXXXXXX for placing your orders.]]></string>
+    <string name="faq4">Q4.How do I know my order is confirmed?</string>
+    <string name="faqAns4"><![CDATA[-> We will send you a order confirmation email once we receive your order.]]></string>
+    <string name="faq5">Q5.Can I change the address once the order has been placed?</string>
+    <string name="faqAns5"><![CDATA[-> Yes, you can ask for a change in the delivery address if our supplier hasn’t already dispatched the order. Please call on +91-XXXXXXXXXX or writing to our customer support assist mentioning your Order details.]]></string>
+    <string name="no_favourites">No Favourites</string>
+    <string name="register_log_in">Log In</string>
+    <string name="go_to_cart">Go to Cart</string>
+    <string name="restaurant_name">Item Name</string>
+    <string name="confirm_order">Order Confirmed</string>
+    <string name="order_history_static_text">Your previous orders are listed below :</string>
+    <string name="no_orders">order not placed yet</string>
+</resources>
